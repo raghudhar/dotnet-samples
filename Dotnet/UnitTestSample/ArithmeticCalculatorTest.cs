@@ -17,19 +17,19 @@ namespace UnitTestSample
         [TestMethod]
         public void PassingAdditionTest()
         {
-            Assert.IsTrue(_arithmeticCalculator.Add(5, 4) == 9);
+            Assert.IsTrue(_arithmeticCalculator.Add(6, 4) == 10);
         }
 
         [TestMethod]
         public void FailingSubtractionTest()
         {
-            Assert.IsTrue(_arithmeticCalculator.Subtract(5, 4) == 0);
+            Assert.IsTrue(_arithmeticCalculator.Subtract(6, 4) == 0);
         }
 
         [TestMethod]
         public void PassingMultiplicationTest()
         {
-            Assert.IsTrue(_arithmeticCalculator.Multiply(5, 4) == 20);
+            Assert.IsTrue(_arithmeticCalculator.Multiply(6, 4) == 24);
         }
 
         [TestMethod]
